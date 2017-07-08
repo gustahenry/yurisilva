@@ -1,5 +1,4 @@
 <?php require_once('header.php') ?>
-
 <body>
 <div class="container">
 	
@@ -21,8 +20,8 @@
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="#">SOLUÇÕES</a></li>
 	        <li><a href="sobre.php">SOBRE</a></li>
-	        <li><a href="#">PORTFÓLIO</a></li>
-	        <li><a href="#">CONTATO</a></li>
+	        <li><a href="portfolio.php">PORTFÓLIO</a></li>
+	        <li><a href="contato.php">CONTATO</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->

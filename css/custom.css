@@ -1,6 +1,5 @@
 body{
 	font-family: 'Montserrat', sans-serif;
-	color: #fff;
 	font-weight: bold;
 }
 .logo{
@@ -18,9 +17,6 @@ body{
 .navbar-nav{
 	margin-top: 17px;
 	font-size: 1.5rem;
-}
-.navbar-default .navbar-nav>li>a{
-	color: #fff;
 }
 .fullscreen-bg {
   position: fixed;
@@ -80,4 +76,14 @@ body{
 	background-image: url("../img/bckg-sobre.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.contato{
+  background-image: url("../img/bckg-contato.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.alinhamento{
+  width: 414px;
+  float: right;
 }
