@@ -7,6 +7,6 @@
     <title>Yuri Silva Desinger</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css?version=7" rel="stylesheet">
+    <link href="css/custom.css?version=11" rel="stylesheet">
 </head>
   

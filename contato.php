@@ -22,7 +22,7 @@
 		        <li><a class="black" href="#">SOLUÇÕES</a></li>
 		        <li><a href="sobre.php">SOBRE</a></li>
 		        <li><a href="portfolio.php">PORTFÓLIO</a></li>
-		        <li><a href="contato.php">CONTATO</a></li>
+		        <li><a class="ativa" href="contato.php">CONTATO</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -31,8 +31,9 @@
 
 		
 		
-			
-			<div class="alinhamento">
+			<div class="row">
+				<div class="col-sm-7"></div>
+				<div class="col-sm-5">
 				<form action="">
 					<h2>SOLICITE UM ORÇAMENTO</h2>
 
@@ -45,10 +46,17 @@
 					<label for="">DEIXE AQUI SUA MENSAGEM</label>
 					<textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
 
-					<button class="btn">ENVIAR</button>
+					<button class="btn btn-danger">ENVIAR</button>
 				</form>
+				<div class="social">
+					<img src="img/facebook-preto.png" alt="">
+					<img src="img/linkedin-preto.png" alt="">
+					<img src="img/insta-preto.png" alt="">
+				</div>
 			</div>
 		
+			</div>
+			
 	</div>
 
 	

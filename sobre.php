@@ -15,7 +15,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand black" href="index.php"><img class="logo" src="img/logo-yuri-silva.png" alt=""></a>
+			<a class="navbar-brand black" href="index.php"><img class="logo" src="img/logo-yuri-silva.png" alt=""></a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,11 +30,9 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 
-
-		
-
-			
-			<div class="alinhamento">
+			<div class="row">
+				<div class="col-sm-7"></div>
+				<div class="col-sm-5">
 				<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut eros tincidunt, vulputate lorem quis, tristique ex. Duis vestibulum sollicitudin nunc eleifend mattis. Proin pulvinar pretium convallis. Suspendisse vitae urna semper, dictum magna id, aliquet velit. Curabitur faucibus ut libero nec imperdiet. Integer eget leo in enim finibus mollis. Proin est lectus, varius sed mi eu, vehicula accumsan felis.
 				</p>
@@ -45,8 +43,10 @@
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut eros tincidunt, vulputate lorem quis, tristique ex. Duis vestibulum sollicitudin nunc eleifend mattis. Proin pulvinar pretium convallis. Suspendisse vitae urna semper, dictum magna id, aliquet velit. Curabitur faucibus ut libero nec imperdiet. Integer eget leo in enim finibus mollis. Proin est lectus, varius sed mi eu, vehicula accumsan felis.
 				</p>
 			</div>
-
+			</div>
 	</div>
+</div>
+
 
 	
 <?php require_once('footer.php') ?>

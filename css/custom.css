@@ -1,10 +1,12 @@
-body{
+body,h1,h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
+.jumbotron h1{
+  color: #fff;
+}
 .logo{
 	width: 10em;
-	margin-left: 30px;
 }
 .navbar-default{
 	background-color: rgba(255,255,255,0);
@@ -17,6 +19,10 @@ body{
 .navbar-nav{
 	margin-top: 17px;
 	font-size: 1.5rem;
+}
+.navbar-default .navbar-nav>li>a{
+color: #000;
+font-weight:  bold;
 }
 .fullscreen-bg {
   position: fixed;
@@ -52,7 +58,7 @@ body{
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    background: url('..img/bckg-sobre.png') center center / cover no-repeat;
   }
 
   .fullscreen-bg__video {
@@ -74,8 +80,8 @@ body{
 
 .sobre{
 	background-image: url("../img/bckg-sobre.png");
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contato{
@@ -83,7 +89,29 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.alinhamento{
-  width: 414px;
-  float: right;
+.form-control{
+  border-color: #000;
+  border-radius: 0px;
+}
+.btn-danger{
+  background-color: #000;
+  border: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-top: 35px;
+}
+.social{
+  margin-top: 4rem;
+}
+.social img{
+  padding-right: 2rem;
+}
+.ativa{
+  background-color: #000;
+  border: 0px;
+  border-radius: 0px;
+}
+ .navbar-default .navbar-nav>li>a.ativa{
+ color: #fff;
 }
